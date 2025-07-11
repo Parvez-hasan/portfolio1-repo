@@ -448,3 +448,26 @@ align-items: center;
   color: #8987A1;
   padding: 10px;
 }
+
+
+/***hover button***/
+
+.btn-6{
+   width: 225px;
+    height: 53px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #131212;
+    background-color: #289cf5;
+    border: none;
+    margin-top: 95px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-6:hover{
+  background:yellow;
+}
