@@ -1,0 +1,415 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*** body customise ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Raleway", sans-serif;
+     font-family: "Inter", sans-serif;
+}
+:root{
+    --primary-color: #4E47FF;
+}
+
+/*** Navbar Section ***/
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: 1420px;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1120px;
+    width: 100%;
+    height: 150px ;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+    align-items: center;
+
+}
+.logo{
+    font-size: 34px;
+     font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-weight:bolder;
+    color: var(--primary-color);
+}
+.btn{
+    width: 130px;
+    height: 46px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+}
+
+/** Banner Section **/
+
+.cool-dark{
+    max-width: 1120px;
+    width: 900px;
+    height: 230px ;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    gap: 37;
+    padding: 0px;
+    margin-top: 150px;
+    }
+
+    .des{
+        font-family: "Raleway", sans-serif;
+        font-size: 60px;
+    }
+
+.btn-2{
+    width: 140px;
+    height: 46px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    margin-top: 40px;
+
+}
+
+/*main style*/
+main{
+    max-width: 1440px;
+    width: 100%;
+    margin: o auto;
+    align-items: center;
+    background-color: rgb(241, 253, 248);
+    
+}
+
+/***Action Section***/
+
+.action{
+ display: flex;
+width: 1150px;
+height: 325px;
+margin: 0 auto;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+margin-top: 90px;
+
+}
+
+#see-it{
+ font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+color: #252432;
+}
+
+.Subtitle{
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+color: #25243280;
+margin-top: 20px;
+}
+.btn-3{
+    width: 225px;
+    height: 46px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    margin-top: 25px;
+}
+.Launch{
+    padding: 40px;
+    width: 50%;
+}
+
+.img-2022{
+    width: 40%;
+   
+}
+.webfl{
+   width: 390px;
+   height: 322px;
+   border-radius: 48px;
+}
+
+/*** Productive Users Section ***/
+
+ .stats-container {
+      background-color: #170ffa1a;
+      padding: 40px 20px;
+      border-radius: 24px;
+      text-align: center;
+      justify-content: center;
+      max-width: 1050px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 160px;
+      margin-top: 110px;
+    }
+
+    .stats-container h2 {
+      font-family: "Raleway", sans-serif;
+      width: 100%;
+      font-size: 38px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #252432;
+    }
+
+    .stat {
+      flex: 1;
+    font-family: "Inter", sans-serif;
+    font-size: 85px;
+      font-weight: 700;
+      margin: 10px;
+    }
+
+    .stat .number {
+      font-size: 72px;
+      font-weight: bold;
+      color: #4a3aff;
+      margin-top: 20px;
+    }
+
+    .stat .label {
+      font-size: 14px;
+      color: #00000080;
+      margin-top: 5px;
+    }
+
+/***  What our users say  ***/
+
+.Section-titel {
+      padding: 40px 20px;
+      border-radius: 24px;
+      text-align: center;
+      justify-content: center;
+      max-width: 1140px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 110px;
+      margin-top: 70px;
+    
+    }
+
+    .Section-titel h2 {
+      font-family: "Raleway", sans-serif;
+      width: 100%;
+      font-size: 38px;
+      font-weight: 700;
+      color: #252432;
+  
+    }
+    .get {
+      font-family: "Inter", sans-serif;
+      font-size: 15px;
+      font-weight:300;
+      width: 300.67px;
+      height: 220px;
+      box-sizing: border-box;
+      border: 1px solid rgb(242, 237, 237);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.5);
+      margin-top: 70px;
+    }
+
+    .num {
+      display: flex;
+      border-radius: 100%;
+      font-size: 72px;
+      font-weight: bold;
+      color: #4a3aff;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+.get .say {
+display: flex;
+font-family: "Inter"; 
+font-size: 1px;
+font-weight: ;
+margin-top: 20px;
+gap: 5px;
+align-items: center;
+justify-content: center;
+    }
+
+.para{
+      font-family: "Inter";  
+font-size: 10px;
+font-weight: 600;
+color: #757575;
+    }
+.loved{ 
+  margin-top: 40px;
+  color: #1E1E1E;
+  width: 318.67px;
+height: 81px; 
+}
+
+.gril{
+  border-radius: 100%;
+}
+
+
+/***Ready to focus better***/
+
+.better{
+  max-width: 1140px;
+    width: 100%;
+    height: 650px ;
+    margin: 0 auto;
+    justify-content: center;
+align-items: center;
+gap: 20;
+padding: 71px 150px 71px 150px;
+}
+
+.conf{
+ border-radius: 48px;
+background: url('../Assets/wc-big.png');
+width: 830px;
+height: 364.77px;
+
+}
+.ready{
+text-align: center;
+padding: 30px;
+}
+.ready .h2{
+  font-size: 80px;
+font-weight: 700;
+font-family: "Raleway";
+padding: 5px;
+
+}
+.ready p {
+  color: #00000080;
+  margin-top: 14px;
+}
+
+.btn-4{
+ width: 225px;
+    height: 46px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    margin-top: 25px;
+}
+
+//***Let’s Get In Touch Section***//
+
+.touch-mail{
+   max-width: 1120px;
+    width: 100%;
+    width: 1140px;
+    height: 625px;
+    display: flex; 
+} 
+.touch-mail{
+  display: flex;
+   width: 1140px;
+    height: 625px;
+margin-left: 300px;
+    flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 233;
+padding: 71px 0px 71px 0px;
+
+}
+
+.let{
+  font-family: "Raleway";
+  font-size: 77px;
+font-weight: 700;
+width: 528px;
+height: 232px;
+align-items: center;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 320px;
+
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, #3b82f6, #4f46e5);
+
+}
+
+/***Footer section***/
+
+.logo-2{
+    font-size: 34px;
+     font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-weight:bolder;
+    color: var(--primary-color);
+}
