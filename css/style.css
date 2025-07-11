@@ -413,3 +413,13 @@ align-items: center;
     font-weight:bolder;
     color: var(--primary-color);
 }
+.footer{
+  max-width: 1120px;
+    width: 80%;
+    height: 150px ;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
