@@ -414,23 +414,40 @@ align-items: center;
     color: var(--primary-color);
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    margin-left: 80px;
 }
 .footer{
   max-width: 1120px;
     width: 50%;
-  width: 531px;
-height: 221px;
+  width: 501px;
+height: 251px;
     margin: 0 auto;
     align-items: center;
     box-sizing: border-box;
 border-top: 1px solid rgba(0, 0, 0, 0.1);
 background: rgb(255, 255, 255);
 padding: 30px 100px;
+margin-right: 550px;
+
 }
 .home ul {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 .footer .para-ses {
+  width: 501px;
+  height: 40px;
   align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8987A1;
+  margin-right: 70px;
+
+}
+ 
+.home {
+  margin-top: 20px;
+  color: #8987A1;
+  padding: 10px;
 }
